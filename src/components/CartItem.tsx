@@ -1,5 +1,7 @@
 import { Button, Stack } from "react-bootstrap";
 import { formatCurrency } from "../utilities/formatCurrency";
+import { useShoppingCart } from "../context/ShoppingCartContext";
+import storeItems from "../data/items.json";
 
 // Type CartItemProps is the type of the props object that will be passed to the CartItem component
 type CartItemProps = {
