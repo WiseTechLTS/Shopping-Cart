@@ -13,11 +13,11 @@ export function Navbar() {
           <Nav.Link to="/" as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
-            Store
+          <Nav.Link to="/shopify" as={NavLink}>
+            Shopify
           </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
-            About
+          <Nav.Link to="/sale" as={NavLink}>
+            On Sale
           </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (
